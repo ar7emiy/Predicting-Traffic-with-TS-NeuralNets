@@ -14,6 +14,7 @@ The evaluation metric for this competition is Mean Absolute Error (MAE).
 # Submission Format
 For every author in the dataset, submission files should contain two columns: id and prediction, where id should be 0-based indices for the rows in the test set, and prediction should be the predicted traffic volume of the row. The id number/index should start with 35589. The submission file must start with a header row, and be followed by 4986 rows of predictions (for ids from 35589 to 40574). No comma within id numbers predictions should be used -- commas should be used only as a delimiter between the two columns. Also there should be no space between the two columns..
 
+
 id,prediction
 35589,3481.280499629291
 35590,2876.958684404887
@@ -23,3 +24,4 @@ id,prediction
 40572,3947.3713909650096
 40573,3542.831172174818
 40574,2781.3480226893225
+
